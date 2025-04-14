@@ -1,4 +1,4 @@
 
-document.body.addEventListener("DOMLoadContent", () => {
+document.addEventListener("DOMContentLoaded", () => {
     console.log("pagina cargada");
-}) 
+});
