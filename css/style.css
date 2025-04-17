@@ -3,7 +3,7 @@ body {
     background-color: rgb(82, 79, 94);
 
     color: aliceblue;
-    
+
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
     font-size: large;
     font-weight: bold;
@@ -12,4 +12,22 @@ body {
     text-transform: capitalize;
     
 
+}
+
+.post {
+    background-color: aliceblue;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.post > h2{
+    color: black;
+    text-decoration: underline;
+
+}
+
+.post > p {
+    color: black;
 }
