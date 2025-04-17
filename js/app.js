@@ -1,4 +1,4 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("pagina cargada");
+    console.log("pagina cargada app");
 });
