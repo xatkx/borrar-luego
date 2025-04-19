@@ -17,6 +17,7 @@ body {
 header {
 
     color: black !important;
+    
 }
 
 .container {
@@ -35,6 +36,9 @@ header {
 .navegation {
     background-color: aliceblue;
     border-radius: 10px;
+
+   
+
 }
 .navegation > ul {
     display: flex;
