@@ -49,12 +49,14 @@ header {
 }
 
 .navegation > ul li a {
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 10px 20px;
     background-color: rgb(82, 79, 94);
+    border-radius: 5px;
     color: aliceblue;
->>>>>>> cabezera
+    display: block;
+    margin: 3px;
+    padding: 10px 10px;
+    text-decoration: none;
+
 }
 
 .post {
