@@ -14,10 +14,47 @@ body {
 
 }
 
+header {
+
+    color: black !important;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     gap: 10px;
+ }
+
+.cabezera {
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+.navegation {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.navegation > ul {
+    display: flex;
+    gap: 10px;
+
+    list-style-type: none;
+
+}
+
+.navegation ul li {
+
+}
+
+.navegation > ul li a {
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(82, 79, 94);
+    color: aliceblue;
+>>>>>>> cabezera
 }
 
 .post {
