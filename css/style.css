@@ -36,6 +36,8 @@ header {
 }
 
 .navegation {
+    display: flex;
+    justify-content: space-around;
     background-color: aliceblue;
     border-radius: 10px;
 
@@ -62,7 +64,24 @@ header {
     margin: 3px;
     padding: 10px 10px;
     text-decoration: none;
+    box-sizing: border-box;
 
+}
+
+ul.navegation-search {
+
+}
+
+.navegation-search li input {
+    background-color: rgb(82, 79, 94);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    display: block;
+    margin: 3px;
+    padding: 13px 13px;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 .post {
