@@ -1,6 +1,11 @@
+
+:root {
+    --main-color:rgb(51, 58, 82);
+}
+
 body {
     
-    background-color: rgb(82, 79, 94);
+    background-color: var(--main-color);
 
     color: aliceblue;
 
@@ -57,7 +62,7 @@ header {
 }
 
 .navegation > ul li a {
-    background-color: rgb(82, 79, 94);
+    background-color: var(--main-color);
     border-radius: 5px;
     color: aliceblue;
     display: block;
@@ -73,7 +78,7 @@ ul.navegation-search {
 }
 
 .navegation-search li input {
-    background-color: rgb(82, 79, 94);
+    background-color: var(--main-color);
     border: none;
     border-radius: 5px;
     color: aliceblue;
